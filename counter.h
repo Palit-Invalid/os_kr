@@ -1,5 +1,9 @@
+#ifndef COUNTER_H
+#define COUNTER_H
+
 #include <stdio.h>
 #include <stdbool.h>
 
-int countFromFile(const char *filename);
 int countFromTerm();
+
+#endif //COUNTER_H
